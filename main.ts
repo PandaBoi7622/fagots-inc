@@ -119,7 +119,6 @@ mp.setPlayerSprite(mp.playerSelector(mp.PlayerNumber.Two), sprites.create(img`
     `, SpriteKind.Player))
 mp.moveWithButtons(mp.playerSelector(mp.PlayerNumber.One), 100, 0)
 mp.moveWithButtons(mp.playerSelector(mp.PlayerNumber.Two), 100, 0)
-tiles.setCurrentTilemap(tilemap`level1`)
 mp.getPlayerSprite(mp.playerSelector(mp.PlayerNumber.One)).ay = 600
 mp.getPlayerSprite(mp.playerSelector(mp.PlayerNumber.Two)).ay = 600
 scene.cameraFollowSprite(mp.getPlayerSprite(mp.playerSelector(mp.PlayerNumber.One)))
